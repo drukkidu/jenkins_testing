@@ -19,16 +19,6 @@ public class BoyController {
 
         return boyModels;
         }
-        @GetMapping("/boys/{id}")
-        public BoyModel boyone(@PathVariable ("id") int id) {
-            return boyRepository.findById(id).get();
-        }
-
-        @PostMapping("/boys")
-        //response entity to return the current ID
-        public BoyModel boyone(@RequestBody BoyModel boyModel) {
-            return boyRepository.save(boyModel);
-        }
 
     }
 
