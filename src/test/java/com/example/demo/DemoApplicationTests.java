@@ -20,7 +20,7 @@ public class DemoApplicationTests {
     private MockMvc mockMvc;
 
     @Test
-    public void getsAllRides() throws Exception {
+    public void getsAllBoys() throws Exception {
         mockMvc.perform(MockMvcRequestBuilders.get("/boys")
                 .accept(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
