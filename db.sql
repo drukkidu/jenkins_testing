@@ -1,0 +1,6 @@
+CREATE TABLE `boy` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(15) DEFAULT NULL,
+  `phone` varchar(10) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4
